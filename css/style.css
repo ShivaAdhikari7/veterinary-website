@@ -1,0 +1,272 @@
+/* <!-- font-family: 'Source Sans Pro', sans-serif; --> */
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins-Black.ttf);
+}
+
+* {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.unipadding {
+  padding: 0 8%;
+}
+#top_nav {
+  background: #daac00;
+}
+#navlink ul li {
+  padding: 20px;
+  font-size: 20px;
+}
+#navlink ul li a {
+  color: white;
+}
+#navlink ul li a:hover {
+  color: rgb(202, 121, 121);
+}
+#searchbox {
+  background: #fcc302;
+  border: 0;
+  border-radius: 0;
+  box-shadow: 6px 11px 10px 0 #92818173;
+  position: relative;
+  left: 48px;
+}
+#searchbox::placeholder {
+  color: white;
+}
+
+#searchbtn {
+  position: relative;
+  z-index: 1;
+  background: #00bec9;
+  border-radius: 0;
+  border: 0;
+}
+/* banner Section */
+
+#banner {
+  background: #fcc302;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#banner h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+#banner p {
+  color: white;
+  font-size: 19px;
+}
+#banner-btn1 {
+  background: #00bec9;
+  color: white;
+  border: 2px solid #00bec9;
+  transition: all 1s ease;
+}
+#banner-btn1:hover {
+  color: white;
+  border: 2px solid white;
+  background: none;
+}
+#banner-btn2 {
+  color: white;
+  border: 2px solid white;
+  margin-left: 15px;
+  transition: all 1s ease;
+}
+#banner-btn2:hover {
+  background: #00bec9;
+  color: white;
+  border: 2px solid #00bec9;
+}
+/* Service Section */
+#service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+#serviceimg img {
+  border: 10px solid #00bec9;
+  border-radius: 20px;
+}
+#servicebtn {
+  background: #fcc302;
+  color: white;
+  border: 2px solid #fcc302;
+  transition: all 1s ease;
+}
+#servicebtn:hover {
+  background: #00bec9;
+}
+/* Content Section */
+#counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fcc302;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+#counter h1 {
+  padding-bottom: 20px;
+}
+.countericon {
+  font-size: 70px;
+}
+#vaccination {
+  text-align: center;
+  color: white;
+}
+
+/* Blog Section */
+#blog {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#blog-title {
+  font-weight: bolder;
+}
+#blog-des {
+  font-size: 20px;
+}
+
+.article-detail {
+  border: 2px solid rgb(185, 185, 185);
+  border-top: 0;
+  padding: 15px;
+}
+.article-des {
+  font-size: 20px;
+}
+.article-link,
+.article-date {
+  color: #00bec9;
+  text-decoration: none;
+}
+/* Footer */
+#footer {
+  background: #353535;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#footer-submit {
+  border: 0;
+  border-radius: 0;
+}
+.footer-title {
+  padding-left: 36px;
+}
+#footer-link ul li,
+#footer-secondlink ul li {
+  padding-top: 20px;
+  list-style-type: none;
+}
+
+#footer-link ul li a,
+#footer-secondlink ul li a {
+  text-decoration: none;
+  color: white;
+  list-style-type: none;
+}
+#footer-form {
+  margin-top: 55px;
+  margin-bottom: 10px;
+}
+#footer-searchbox {
+  background: #daac00;
+  width: 100%;
+  max-width: 250px;
+  padding: 15px;
+  position: relative;
+  left: 10px;
+  border: 0;
+  border-radius: 0;
+}
+#footer-submit {
+  background: #00bec9;
+  position: relative;
+  z-index: 1;
+  width: 35px;
+  border: 0;
+  border-radius: 0;
+  padding: 15px 40px;
+}
+#footer-social-media {
+  float: right;
+}
+#footer-social-media .fab {
+  font-size: 20px;
+  color: black;
+  background: white;
+  padding: 5px 5px;
+  border-radius: 50%;
+}
+#footer-social-media .fa-facebook-f {
+  padding: 5px 9px;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 1024px) {
+  #navlink ul li {
+    padding: 7px;
+  }
+  #banner h1 {
+    font-size: 46px;
+  }
+  #service h1 {
+    font-size: 29px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #searchform {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    left: -40px;
+  }
+  #servicetxt {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #banner h1 {
+    font-size: 34px;
+  }
+  @media only screen and (max-width: 500px) {
+    #banner h1 {
+      font-size: 34px;
+    }
+    #bannertxt button {
+      margin-left: 32px;
+    }
+    #servicetxt {
+      margin-bottom: 20px;
+    }
+  }
+  @media only screen and (max-width: 320px) {
+    #banner h1 {
+      font-size: 31px;
+    }
+    #bannertxt button {
+      margin-bottom: 10px;
+      width: 100%;
+      position: relative;
+      right: 31px;
+    }
+  }
+}
